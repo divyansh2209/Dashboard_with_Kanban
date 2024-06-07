@@ -3,7 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@dnd-kit/core": "^6.1.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@fullcalendar/core": "^6.1.14",
+    "@fullcalendar/daygrid": "^6.1.14",
+    "@fullcalendar/interaction": "^6.1.14",
+    "@fullcalendar/list": "^6.1.14",
+    "@fullcalendar/react": "^6.1.14",
+    "@fullcalendar/timegrid": "^6.1.14",
+    "@headlessui/react": "^2.0.4",
+    "@heroicons/react": "^2.1.3",
     "@reduxjs/toolkit": "^1.9.7",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.5.2",
@@ -11,11 +22,17 @@
     "@types/node": "^17.0.45",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "class-variance-authority": "^0.7.0",
+    "focus-trap-react": "^10.2.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
     "react-redux": "^8.1.3",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "recharts": "^2.12.7",
     "typescript": "^4.9.5",
+    "uuidv4": "^6.2.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,5 +58,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.10",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.3"
   }
 }
